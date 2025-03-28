@@ -63,7 +63,7 @@
 
 <!-- 3D Contribution Map -->
 <div align="center">
-  <img src="https://github.com/erzer12/erzer12/blob/main/github-metrics.svg" width="100%">
+  <img src="https://github.com/erzer12/erzer12/blob/main/.github/workflows/profile-3d.yml" width="100%">
 </div>
 
 ---
