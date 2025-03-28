@@ -3,6 +3,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=200&section=header&text=Harshil+P&fontSize=50&fontColor=ffffff" alt="Header">
 </div>
 
+<!-- Short Bio -->
+<div align="center">
+  🚀 <strong>AI Enthusiast | Computer Vision Explorer | Hackathon Innovator</strong>
+  <br>
+  <em>"Passionate about turning pixels into intelligence & ideas into impact."</em>
+</div>
+
+---
+
 <!-- Animated Mascot -->
 <div align="center">
   <img src="./assets/ai-mascot.gif" width="200" alt="AI Buddy" title="Future Vision Engineer 👁️🤖">
@@ -15,43 +24,41 @@
 
 ---
 
-### 🧬 Code DNA
-
-🧠 Core Skills:
-- Python (60%) ██████░░░░░░
-- C (45%) █████░░░░░░░
-- Java (40%) ████░░░░░░░░
-- HTML/CSS (50%) █████░░░░░░
-- Prompt Engineering (70%) ███████░░░░
-
-🎯 Current Focus:
-» OpenCV Fundamentals
-» Object Detection Basics
-» NASA Hackathon Experience
-
+## 🏆 Achievements & Contributions
+- 🌍 **NASA Space Apps Challenge Participant** - Developed a game integrating GLOBE Program protocols.
+- 🏅 **Hackathon Enthusiast** - Passionate about building innovative solutions.
+- 🛠️ **AI & Computer Vision** - Experimenting with OpenCV & Deep Learning.
 
 ---
 
-### 🛠️ Toolkit
+## 🚀 Featured Projects
+
+🔹 **AI-Powered Web App**  
+*Built with OpenCV & Flask*  
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+
+🔹 **Computer Vision Object Detector**  
+*Real-time object detection using Python & OpenCV*  
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+
+🔹 **Interactive Learning Game**  
+*Developed for the NASA Hackathon, integrates GLOBE Program data*  
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+
+---
+
+## 🛠️ Toolkit
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,c,java,html,css,vscode,github,linux&theme=dark" alt="tools">
 </div>
 
 ---
 
-### 🌌 Hackathon Journey
-
-+ 2024 NASA Space Apps Challenge Participant
-! Theme: Globe Protocol Games
-# Created prototype game concept
-@ Category: A game that integrates Global Learning and Observations to Benefit the Environment (GLOBE) Program protocols.
-
----
-
-### 📊 GitHub Landscape
+## 📊 GitHub Landscape
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=erzer12&show_icons=true&theme=dark&hide_border=true" width="45%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=erzer12&theme=dark&hide_border=true" width="45%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" width="45%">
 </div>
 
 <!-- 3D Contribution Map -->
@@ -61,15 +68,14 @@
 
 ---
 
-### 🚧 Under Construction
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=First+CV+Project+Incoming+%F0%9F%93%B8%EF%B8%8F;AI+Powered+Web+App+%F0%9F%94%A5;Interactive+Learning+Modules+%F0%9F%93%9A" alt="Coming Soon">
-</div>
+## 🎯 Learning Roadmap
+- 🔭 **Next Focus:** Deep Learning for Computer Vision
+- 🛠 **Exploring:** TensorFlow & PyTorch
+- 🎮 **Experimenting:** AI-powered Game Mechanics
 
 ---
 
-### 🤝 Let's Connect!
-
+## 🤝 Let's Connect!
 <div align="center">
   <a href="https://www.linkedin.com/in/harshil-p-491a2132b" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="LinkedIn" height="40">
@@ -88,18 +94,18 @@
   </a>
 </div>
 
+---
+
 <!-- Easter Egg -->
-<div align="center">
-  <details>
-    <summary>🤖 Secret Protocol</summary>
-    <br>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=01001000+01000101+01001100+01001100+01001111+00100000+01010111+01001111+01010010+01001100+01000100" alt="Binary Secret">
-  </details>
-</div>
+<details>
+  <summary>🤖 Secret Protocol</summary>
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=01001000+01000101+01001100+01001100+01001111+00100000+01010111+01001111+01010010+01001100+01000100" alt="Binary Secret">
+</details>
+
+---
 
 <!-- Footer Wave -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer" alt="Footer">
 </div>
-
----
