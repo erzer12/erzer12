@@ -63,7 +63,7 @@
 
 <!-- 3D Contribution Map -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/erzer12/erzer12/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" target="_self">
+  <img src="https://github.com/erzer12/erzer12/blob/main/github-metrics.svg" width="100%">
 </div>
 
 ---
