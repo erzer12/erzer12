@@ -81,7 +81,7 @@
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" title="Instagram" height="40">
   </a>
   <a href="https://leetcode.com/u/erzer12" target="_blank">
-    <img src="https://skillicons.dev/icons?i=leetcode" alt="LeetCode" title="LeetCode" height="40">
+    <img src="https://ibb.co/DD9MQXKt" alt="LeetCode" title="LeetCode" height="40">
   </a>
   <a href="https://github.com/erzer12" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub Profile" height="40">
