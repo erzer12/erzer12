@@ -42,7 +42,7 @@
 ### 🌌 Hackathon Journey
 
 + 2024 NASA Space Apps Challenge Participant
-! Theme: Globe Protocol Games
++ Theme: Globe Protocol Games
 # Created prototype game concept
 @ Category: A game that integrates Global Learning and Observations to Benefit the Environment (GLOBE) Program protocols.
 
