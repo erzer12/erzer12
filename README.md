@@ -80,7 +80,7 @@
   <a href="https://instagram.com/_er_zer_" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" title="Instagram" height="40">
   </a>
-  <a href="https://leetcode.com/harshil/" target="_blank">
+  <a href="https://leetcode.com/u/erzer12" target="_blank">
     <img src="https://skillicons.dev/icons?i=leetcode" alt="LeetCode" title="LeetCode" height="40">
   </a>
   <a href="https://github.com/erzer12" target="_blank">
