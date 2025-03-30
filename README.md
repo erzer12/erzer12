@@ -84,7 +84,7 @@
     <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" title="Shoot me an email" height="40">
   </a>
   <a href="https://leetcode.com/u/erzer12" target="_blank">
-    <img src="https://skillicons.dev/icons?i=leetcode" alt="LeetCode" title="Coding Challenges" height="40">
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-4-pack-logos-icons-2970357.png?f=webp&w=512" alt="LeetCode" title="Coding Challenges" height="40">
   </a>
 </div>
 
