@@ -78,19 +78,13 @@
 ## 🤝 Let's Connect!
 <div align="center">
   <a href="https://www.linkedin.com/in/harshil-p-491a2132b" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="LinkedIn" height="40">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="Let's network!" height="40">
   </a>
   <a href="mailto:harshilp1234@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" title="Gmail" height="40">
-  </a>
-  <a href="https://instagram.com/_er_zer_" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" title="Instagram" height="40">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" title="Shoot me an email" height="40">
   </a>
   <a href="https://leetcode.com/u/erzer12" target="_blank">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-4-pack-logos-icons-2970357.png?f=webp&w=512" alt="LeetCode" title="LeetCode" height="40">
-  </a>
-  <a href="https://github.com/erzer12" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub Profile" height="40">
+    <img src="https://skillicons.dev/icons?i=leetcode" alt="LeetCode" title="Coding Challenges" height="40">
   </a>
 </div>
 
