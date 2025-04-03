@@ -61,11 +61,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" width="45%" target="_self">
 </div>
 
-<!-- 3D Contribution Map 
+3D Contribution Map 
 <div align="center">
   <img src="https://raw.githubusercontent.com/erzer12/erzer12/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Map">
 </div>
--->
+
 
 ## 🎯 Learning Roadmap
 - 🔭 **Next Focus:** Deep Learning for Computer Vision
