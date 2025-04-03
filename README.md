@@ -35,15 +35,15 @@
 
 🔹 **AI-Powered Web App**  
 *Built with OpenCV & Flask*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/AI-Powered-Web-App)
 
 🔹 **Computer Vision Object Detector**  
 *Real-time object detection using Python & OpenCV*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/Computer-Vision-Object-Detector)
 
 🔹 **Interactive Learning Game**  
 *Developed for the NASA Hackathon, integrates GLOBE Program data*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](GitHub_Link)
+[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/Interactive-Learning-Game)
 
 ---
 
