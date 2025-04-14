@@ -19,19 +19,28 @@ jobs:
         curl -o profile-3d-contrib/profile-night-rainbow.svg https://ghchart.rshah.org/erzer12
 
     - name: Fetch All Repositories and Calculate Languages
+      id: languages
       env:
         PAT: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
       run: |
         # Fetch all repositories for the user
-        curl -s -H "Authorization: Bearer $PAT" "https://api.github.com/users/erzer12/repos?per_page=100" > repos.json
+        curl -s -H "Authorization: Bearer $PAT" "https://api.github.com/user/repos?per_page=100" > repos.json
 
-        # Extract and count languages from all repositories
-        jq -r '.[].language' repos.json | grep -v null | sort | uniq -c | sort -nr > languages.txt
+        # Initialize an empty file for language statistics
+        echo "" > languages.txt
+
+        # Loop through each repository and fetch language data
+        for repo in $(jq -r '.[].languages_url' repos.json); do
+          curl -s -H "Authorization: Bearer $PAT" "$repo" >> languages.txt
+        done
+
+        # Extract and count languages
+        jq -r 'keys_unsorted[]' languages.txt | sort | uniq -c | sort -nr > aggregated_languages.txt
 
     - name: Update README.md
       run: |
         # Extract top 5 languages
-        LANGUAGES=$(cat languages.txt | awk '{print $2 " (" $1 ")"}' | head -5 | tr '\n' ',' | sed 's/,$//')
+        LANGUAGES=$(cat aggregated_languages.txt | awk '{print $2 " (" $1 ")"}' | head -5 | tr '\n' ',' | sed 's/,$//')
 
         # Replace placeholder in README.md
         sed -i "s|<!--LANGUAGES-->.*<!--/LANGUAGES-->|<!--LANGUAGES-->$LANGUAGES<!--/LANGUAGES-->|" README.md
