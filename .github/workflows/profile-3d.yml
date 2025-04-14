@@ -18,13 +18,20 @@ jobs:
         mkdir -p profile-3d-contrib
         curl -o profile-3d-contrib/profile-night-rainbow.svg https://ghchart.rshah.org/erzer12
 
-    - name: Update Most Used Languages
+    - name: Fetch All Repositories and Calculate Languages
+      id: languages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        curl "https://api.github.com/users/erzer12/repos" | jq -r '.[] | .language' | sort | uniq -c | sort -nr > languages.txt
+        # Fetch all repositories for the user
+        curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/users/erzer12/repos?per_page=100" > repos.json
+
+        # Extract and count languages from all repositories
+        jq -r '.[].language' repos.json | grep -v null | sort | uniq -c | sort -nr > languages.txt
 
     - name: Update README.md
       run: |
-        # Extract most used languages
+        # Extract top 5 languages
         LANGUAGES=$(cat languages.txt | awk '{print $2 " (" $1 ")"}' | head -5 | tr '\n' ',' | sed 's/,$//')
 
         # Replace placeholder in README.md
