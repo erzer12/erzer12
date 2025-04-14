@@ -63,7 +63,7 @@
 </div>
 
 ### Most Used Languages
-<!--LANGUAGES-->null (4),TypeScript (1),JavaScript (1)<!--/LANGUAGES-->
+<!--LANGUAGES-->TypeScript (1),JavaScript (1)<!--/LANGUAGES-->
 
 <!-- 3D Contribution Map -->
 <div align="center">
