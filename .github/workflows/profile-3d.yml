@@ -1,4 +1,4 @@
-name: Generate 3D Contribution Map
+name: Update README and 3D Contribution Map
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-profile:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,12 +18,24 @@ jobs:
         mkdir -p profile-3d-contrib
         curl -o profile-3d-contrib/profile-night-rainbow.svg https://ghchart.rshah.org/erzer12
 
-    - name: Commit and push changes
+    - name: Update Most Used Languages
+      run: |
+        curl "https://api.github.com/users/erzer12/repos" | jq -r '.[] | .language' | sort | uniq -c | sort -nr > languages.txt
+
+    - name: Update README.md
+      run: |
+        # Extract most used languages
+        LANGUAGES=$(cat languages.txt | awk '{print $2 " (" $1 ")"}' | head -5 | tr '\n' ',' | sed 's/,$//')
+
+        # Replace placeholder in README.md
+        sed -i "s|<!--LANGUAGES-->.*<!--/LANGUAGES-->|<!--LANGUAGES-->$LANGUAGES<!--/LANGUAGES-->|" README.md
+
+    - name: Commit and Push Changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-        git add profile-3d-contrib/profile-night-rainbow.svg
-        git commit -m 'Generate 3D Contribution Map'
+        git add profile-3d-contrib/profile-night-rainbow.svg README.md
+        git commit -m 'Update README with Most Used Languages and 3D Contribution Map'
         git push
