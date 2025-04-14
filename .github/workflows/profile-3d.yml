@@ -19,12 +19,11 @@ jobs:
         curl -o profile-3d-contrib/profile-night-rainbow.svg https://ghchart.rshah.org/erzer12
 
     - name: Fetch All Repositories and Calculate Languages
-      id: languages
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PAT: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
       run: |
         # Fetch all repositories for the user
-        curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/users/erzer12/repos?per_page=100" > repos.json
+        curl -s -H "Authorization: Bearer $PAT" "https://api.github.com/users/erzer12/repos?per_page=100" > repos.json
 
         # Extract and count languages from all repositories
         jq -r '.[].language' repos.json | grep -v null | sort | uniq -c | sort -nr > languages.txt
@@ -39,10 +38,11 @@ jobs:
 
     - name: Commit and Push Changes
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PAT: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${PAT}@github.com/${{ github.repository }}
         git add profile-3d-contrib/profile-night-rainbow.svg README.md
         git commit -m 'Update README with Most Used Languages and 3D Contribution Map'
         git push
