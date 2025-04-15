@@ -33,17 +33,17 @@
 
 ## 🚀 Featured Projects
 
-🔹 **AI-Powered Web App**  
-*Built with OpenCV & Flask*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/AI-Powered-Web-App)
+🔹 **Website Design Templates**  
+*Modern, responsive templates for website designs*  
+[![View Project](https://img.shields.io/badge/-Coming_Soon-lightgrey?style=for-the-badge)](#)
 
-🔹 **Computer Vision Object Detector**  
-*Real-time object detection using Python & OpenCV*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/Computer-Vision-Object-Detector)
+🔹 **Music App & Website Creation**  
+*Building a platform for music streaming and discovery*  
+[![View Project](https://img.shields.io/badge/-Coming_Soon-lightgrey?style=for-the-badge)](#)
 
-🔹 **Interactive Learning Game**  
-*Developed for the NASA Hackathon, integrates GLOBE Program data*  
-[![View Project](https://img.shields.io/badge/-View_Project-blue?style=for-the-badge)](https://github.com/erzer12/Interactive-Learning-Game)
+🔹 **Computer Vision Project**  
+*Exploring AI-driven solutions for image processing and recognition*  
+[![View Project](https://img.shields.io/badge/-Coming_Soon-lightgrey?style=for-the-badge)](#)
 
 ---
 
@@ -62,9 +62,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" width="45%" target="_self">
 </div>
 
-### Most Used Languages
-<!--LANGUAGES--><!--/LANGUAGES-->
-
 <!-- 3D Contribution Map -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/erzer12/erzer12/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Map">
@@ -72,10 +69,12 @@
 
 ---
 
-## 🎯 Learning Roadmap
-- 🔭 **Next Focus:** Deep Learning for Computer Vision
-- 🛠 **Exploring:** TensorFlow & PyTorch
-- 🎮 **Experimenting:** AI-powered Game Mechanics
+## 📚 Learning Roadmap
+- 🔥 **Next Focus:** Completing "Templates for Website Design" with HTML, CSS, and JavaScript.
+- 🌍 **Exploring:** Backend development for "Music App" with Django or Node.js.
+- 👁️ **Experimenting:** Computer Vision techniques with OpenCV and TensorFlow.
+- 🤖 **New Focus:** Experimenting with prompt engineering for AI models.
+- 🌐 **Contributing:** Actively contributing to public repositories and open-source projects.
 
 ---
 
