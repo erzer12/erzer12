@@ -80,7 +80,7 @@
 
 ## 🤝 Let's Connect!
 <div align="center">
-  <a href="https://www.linkedin.com/in/harshil-p-491a2132b" target="_blank">
+  <a href="https://www.linkedin.com/in/harshilp1" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="Let's network!" height="40">
   </a>
   <a href="mailto:harshilp1234@gmail.com">
