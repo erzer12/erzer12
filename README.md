@@ -14,7 +14,7 @@
 
 <!-- Animated Mascot -->
 <div align="center">
-  <img src="./assets/ai-mascot.gif" width="200" alt="AI Buddy" title="Future Vision Engineer 👁️🤖">
+  <img src="./assets/calming cat.gif" width="500" alt="AI Buddy" title="Future Vision Engineer 👁️🤖">
 </div>
 
 <!-- Typing Animation -->
@@ -33,9 +33,9 @@
 
 ## 🚀 Featured Projects
 
-🔹 **Website Design Templates**  
-*Modern, responsive templates for website designs*  
-[![View Project](https://img.shields.io/badge/-Coming_Soon-lightgrey?style=for-the-badge)](#)
+🔹 **NewsHunt-bot**  
+*An automated bot for collecting and sharing the latest news articles*  
+[![View Project](https://img.shields.io/badge/-View_on_GitHub-blue?style=for-the-badge)](https://github.com/erzer12/NewsHunt-bot)
 
 🔹 **Music App & Website Creation**  
 *Building a platform for music streaming and discovery*  
