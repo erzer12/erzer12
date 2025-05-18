@@ -59,7 +59,7 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=erzer12&show_icons=true&theme=dark&hide_border=true" width="45%" target="_self">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=erzer12&theme=dark&hide_border=true" width="45%" target="_self">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" width="45%" target="_self">
+  <img src="./top-langs.svg" width="45%" target="_self">
 </div>
 
 <!-- 3D Contribution Map -->
