@@ -11,21 +11,23 @@ def get_langs():
     while True:
         r = requests.get(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}")
         data = r.json()
-        if not data: break
+        if not data or "message" in data:
+            break
         repos.extend(data)
         page += 1
     lang_totals = {}
     for repo in repos:
-        if repo["fork"]: continue
+        if repo["fork"]:
+            continue
         langs = requests.get(repo["languages_url"]).json()
         for lang, count in langs.items():
             lang_totals[lang] = lang_totals.get(lang, 0) + count
     return lang_totals
 
 def make_svg(lang_totals):
-    dwg = svgwrite.Drawing(OUTPUT, size=("500px", "200px"))
+    dwg = svgwrite.Drawing(OUTPUT, size=("500px", "200px"), profile='tiny')
     sorted_langs = sorted(lang_totals.items(), key=lambda x: x[1], reverse=True)[:5]
-    total = sum(x[1] for x in sorted_langs)
+    total = sum(x[1] for x in sorted_langs) or 1
     y = 40
     for lang, count in sorted_langs:
         percent = count / total * 100
