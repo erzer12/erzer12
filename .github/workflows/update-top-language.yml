@@ -2,7 +2,7 @@ name: Update Top Languages SVG
 
 on:
   schedule:
-    - cron: '0 2 * * 0'  # Weekly
+    - cron: '0 2 * * 0'
   workflow_dispatch:
 
 jobs:
@@ -10,16 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
-
+        with:
+          python-version: '3.x'
       - name: Install dependencies
         run: pip install requests svgwrite
-
       - name: Generate top languages SVG
         run: python .github/scripts/generate_top_langs_svg.py
-
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
