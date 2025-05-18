@@ -64,7 +64,7 @@
 
 <!-- 3D Contribution Map -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/erzer12/erzer12/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Map">
+  <img src="./github-contribution-grid-snake.svg" alt="Snake animation" width="100%">
 </div>
 
 ---
