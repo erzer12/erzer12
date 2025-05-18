@@ -1,41 +1,42 @@
 import os
 import requests
+import svgwrite
 
-REPO = "erzer12/erzer12"
-README = "README.md"
-BADGE_START = "<!-- TOP_LANGUAGE_BADGE_START -->"
-BADGE_END = "<!-- TOP_LANGUAGE_BADGE_END -->"
+USER = "erzer12"
+OUTPUT = "top-langs.svg"
 
-def get_top_language():
-    api_url = f"https://api.github.com/repos/{REPO}/languages"
-    headers = {}
-    token = os.environ.get('GITHUB_TOKEN', '')
-    if token:
-        headers['Authorization'] = f'token {token}'
-    resp = requests.get(api_url, headers=headers)
-    resp.raise_for_status()
-    data = resp.json()
-    if not data:
-        return "None"
-    return max(data, key=data.get)
+def get_langs():
+    repos = []
+    page = 1
+    while True:
+        r = requests.get(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}")
+        data = r.json()
+        if not data: break
+        repos.extend(data)
+        page += 1
+    lang_totals = {}
+    for repo in repos:
+        if repo["fork"]: continue
+        langs = requests.get(repo["languages_url"]).json()
+        for lang, count in langs.items():
+            lang_totals[lang] = lang_totals.get(lang, 0) + count
+    return lang_totals
 
-def update_readme(top_language):
-    with open(README, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    badge_markdown = f"![Top Language](https://img.shields.io/badge/top%20language-{top_language}-blue?style=for-the-badge)"
-    new_section = f"{BADGE_START}\n{badge_markdown}\n{BADGE_END}"
-
-    if BADGE_START in content and BADGE_END in content:
-        start = content.index(BADGE_START)
-        end = content.index(BADGE_END) + len(BADGE_END)
-        content = content[:start] + new_section + content[end:]
-    else:
-        content = new_section + "\n\n" + content
-
-    with open(README, "w", encoding="utf-8") as f:
-        f.write(content)
+def make_svg(lang_totals):
+    dwg = svgwrite.Drawing(OUTPUT, size=("500px", "200px"))
+    sorted_langs = sorted(lang_totals.items(), key=lambda x: x[1], reverse=True)[:5]
+    total = sum(x[1] for x in sorted_langs)
+    y = 40
+    for lang, count in sorted_langs:
+        percent = count / total * 100
+        width = percent * 4
+        dwg.add(dwg.rect(insert=(150, y-20), size=(width, 20), fill="#58A6FF"))
+        dwg.add(dwg.text(f"{lang} ({percent:.1f}%)", insert=(10, y-5), font_size="18px", fill="#fff"))
+        y += 35
+    dwg.add(dwg.text("Top Languages", insert=(10, 25), font_size="22px", fill="#fff"))
+    dwg.save()
 
 if __name__ == "__main__":
-    top_language = get_top_language()
-    update_readme(top_language)
+    langs = get_langs()
+    if langs:
+        make_svg(langs)
