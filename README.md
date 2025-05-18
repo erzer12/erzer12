@@ -64,7 +64,7 @@
 
 <!-- 3D Contribution Map -->
 <div align="center">
-  <img src="./github-contribution-grid-snake.svg" alt="Snake animation" width="100%">
+  <img src="./github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%">
 </div>
 
 ---
