@@ -1,0 +1,30 @@
+name: Update Top Languages & Snake SVG
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'  # Weekly
+  workflow_dispatch:
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Top Languages SVG (Dark Mode)
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" -o top-langs.svg
+
+      - name: Generate Snake SVG (Dark Mode)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: erzer12
+          outputs: |
+            ./github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add top-langs.svg github-contribution-grid-snake-dark.svg
+          git diff --staged --quiet || (git commit -m "Update landscape SVGs (top languages + snake dark)" && git push)
