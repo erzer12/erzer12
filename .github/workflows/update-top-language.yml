@@ -2,7 +2,7 @@ name: Update Top Languages SVG
 
 on:
   schedule:
-    - cron: '0 2 * * 0'
+    - cron: '0 2 * * 0'  # Weekly, adjust as needed
   workflow_dispatch:
 
 jobs:
@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run: pip install requests svgwrite
-      - name: Generate top languages SVG
-        run: python .github/scripts/generate_top_langs_svg.py
-      - name: Commit and push
+
+      - name: Download latest top languages SVG
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&layout=compact&theme=dark" -o top-langs.svg
+
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
