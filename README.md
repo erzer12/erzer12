@@ -35,14 +35,17 @@
 
 🔹 **NewsHunt-bot**  
 *An automated bot for collecting and sharing the latest news articles*  
+
 [![View Project](https://img.shields.io/badge/-View_on_GitHub-blue?style=for-the-badge)](https://github.com/erzer12/NewsHunt-bot)
 
 🔹 **Hr-Agent**  
 *AI-powered web app automating resume screening, candidate ranking, and interview scheduling with email notifications.*
+
 [![View Project](https://img.shields.io/badge/-View_on_GitHub-blue?style=for-the-badge)](https://github.com/erzer12/hr-agent)
 
 🔹 **Computer Vision Project**  
 *Exploring AI-driven solutions for image processing and recognition*  
+
 [![View Project](https://img.shields.io/badge/-Coming_Soon-lightgrey?style=for-the-badge)](#)
 
 ---
