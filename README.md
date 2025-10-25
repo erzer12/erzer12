@@ -31,7 +31,7 @@ I'm constantly exploring, building, and shipping scalable, impactful solutions.
 
 ## 🛠️ My Toolkit
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,c,java,ts,js,html,css,opencv,tensorflow,linux,github,vscode&theme=dark" alt="My Toolkit">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,html,css,docker,mongodb,firebase,tensorflow,linux,git,flask,gcp,vscode&theme=dark" alt="My Toolkit">
 </div>
 
 ---
