@@ -95,7 +95,7 @@ A selection of my key projects and open source contributions:
         <img align="center" src="https://github-readme-stats.vercel.app/api?username=erzer12&theme=transparent&show_icons=true&count_private=true&include_all_commits=false&title_color=45385e&icon_color=45385e&text_color=ffffff&bg_color=00000000" alt="GitHub Stats">
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=erzer12&theme=dark&hide_border=true&ring=45385e&fire=45385e" alt="GitHub Streak">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=erzer12&theme=dark&hide_border=true" alt="GitHub Streak">
       </td>
     </tr>
     <tr align="center">
