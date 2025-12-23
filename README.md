@@ -20,23 +20,17 @@
   <img src="https://komarev.com/ghpvc/?username=erzer12&color=1f163c&style=for-the-badge" alt="Profile Visits"/>
 </p>
 
-<div align="center">
-  <img src="./assets/calming cat.gif" width="500" alt="AI Buddy" title="Future Vision Engineer 👁️🤖">
-</div>
-
----
 
 ## 👨‍💻 About Me
 
 <img align="right" alt="Coding" width="320" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
 
-I'm a developer who treats code as a problem-solving tool.
-
-As a student, I'm passionate about finding the right tech for the job—whether it's Python for an AI-powered tool or React for a slick, user-centric web app.
-
-I'm constantly exploring, building, and shipping scalable, impactful solutions.
+- **Third-year B.Tech CSE (AI & ML) undergraduate** with a strong interest in applied and emerging technologies.  
+- **Learning Python and JavaScript**, focusing on artificial intelligence, machine learning, and practical software development.  
+- **Building projects, participating in hackathons**, and gaining hands-on experience through real-world problem solving.
 
 <br clear="right"/>
+
 
 ---
 
@@ -116,12 +110,6 @@ A selection of my key projects and open source contributions:
 </div>
 
 ---
-
-<details>
-  <summary>🥚 Fun Fact</summary>
-  <br>
-  That 'calming cat' gif? That's basically my internal reaction every time my code runs without an error on the first try.
-</details>
 
 <details>
   <summary>🤖 Secret Protocol</summary>
