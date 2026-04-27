@@ -52,9 +52,9 @@ Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied 
 
 **🤟 SignStream – Real-Time Browser-Based Sign Language Recognition** · [GitHub](https://github.com/erzer12/Signstream) · *Mar 2026*
 
-- Built a browser-based ASL recognition system achieving **92% gesture accuracy**, improving accessibility through real-time captioning and speech output — fully on-device, no backend required.
-- Trained a BiGRU-based sign classifier on WLASL + ASL alphabet landmarks, achieving 97.2% ± 0.25% top‑1 accuracy (5‑fold CV) across 129 classes; implemented personal fine-tuning to adapt to new users (example: 0% → 89.7% personal holdout).
-- Designed a fully on-device inference pipeline using **MediaPipe + ONNX Runtime Web**, enabling real-time NLP-driven captioning in the browser.
+- Built a browser-based ASL recognition app with live caption buffering and optional text-to-speech (Web Speech API) for accessibility.
+- Trained a bidirectional GRU (BiGRU) classifier on 16-frame MediaPipe hand-landmark sequences using WLASL (top-100) plus ASL alphabet data (129-class vocabulary); achieved 97.2% ± 0.25% top-1 accuracy (5-fold stratified CV).
+- Deployed a fully client-side inference pipeline using MediaPipe and ONNX Runtime Web (no backend inference), enabling real-time predictions and caption display in the browser.
 - 📄 Research paper presented at **NCMASE-26** *(Mar 2026)*: *"SignStream: A Client-Side Real-Time Browser-Based Sign Language Recognition System"* <!-- Add paper link here when published: [Paper](<LINK>) -->
 - **Tech:** `PyTorch` `GRU` `MediaPipe` `ONNX Runtime Web` `NLP` `JavaScript`
 
