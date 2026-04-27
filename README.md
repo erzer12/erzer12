@@ -1,124 +1,152 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&height=200&color=000000&text=Harshil%20P&desc=Stay%20Creative&reversal=false&textBg=false&fontAlign=50&animation=twinkling&section=header&strokeWidth=0&descSize=15&fontColor=fffffff&descAlignY=63" alt="Header">
-</div>
+<h1 align="center">Hi 👋, I'm Harshil P</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=AI+Prompt+Architect;Computer+Vision+Learner;OpenSource+Contributor;Hackathon+Builder;Tech+Explorer;Always+Learning+Something+New!" alt="Typing Animation">
-</p>
-
-<p align="center">
-  <a href="https://harshilp.codes" target="_blank" style="text-decoration: none;">
-    <button style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">Portfolio</button>
-  </a>
-  <span style="margin: 0 10px; font-size: 16px; color: #000;">|</span>
-  <a href="https://drive.google.com/file/d/1RvEJGe92HpfZu-Ao0skd5sIcJK4Wv4XI/view?usp=sharing" target="_blank" style="text-decoration: none;">
-    <button style="background-color: #FF6F61; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">Resume</button>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=erzer12&color=1f163c&style=for-the-badge" alt="Profile Visits"/>
-</p>
-
-
-## 👨‍💻 About Me
-
-<img align="right" alt="Coding" width="320" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
-
-- **Third-year B.Tech CSE (AI & ML) undergraduate** with a strong interest in applied and emerging technologies.  
-- **Learning Python and JavaScript**, focusing on artificial intelligence, machine learning, and practical software development.  
-- **Building projects, participating in hackathons**, and gaining hands-on experience through real-world problem solving.
-
-<br clear="right"/>
-
-
----
-
-## 🤝 Let's Connect!
-<p align="center">
-  <a href="https://www.linkedin.com/in/harshilp1" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"></a>
-  <a href="mailto:harshilp1234@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?logo=gmail&style=for-the-badge"></a>
-  <a href="https://leetcode.com/u/erzer12" target="_blank"><img src="https://img.shields.io/badge/LeetCode-orange?logo=leetcode&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <a href="https://discord.com/users/285654805727150081">
-    <picture>
-      <source alt="discord" media="(prefers-color-scheme: dark)" srcset="https://discord.c99.nl/widget/theme-3/285654805727150081.png" >
-      <img alt="discord" src="https://discord.c99.nl/widget/theme-2/285654805727150081.png" />
-    </picture>
-  </a>
+  <a href="mailto:harshilp1234@gmail.com">📫 harshilp1234@gmail.com</a> •
+  <a href="https://www.linkedin.com/in/harshilp1">🔗 LinkedIn</a> •
+  <a href="https://github.com/erzer12">💻 GitHub</a> •
+  <a href="https://harshilp.codes">🌐 Portfolio</a>
 </p>
 
 ---
 
-## 🛠️ My Toolkit
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,html,css,docker,mongodb,firebase,tensorflow,linux,git,flask,gcp,vscode&theme=dark" alt="My Toolkit">
-</div>
+### 👨‍💻 About Me
+
+Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied and emerging technologies. Focused on artificial intelligence, machine learning, and practical software development — building real projects, participating in hackathons, and gaining hands-on experience solving real-world problems.
 
 ---
 
-## 📦 Project Portfolio
+### 🎓 Education
 
-A selection of my key projects and open source contributions:
-
-| Project | Description | Tech Stack |
-|:--------|:------------|:------------|
-| [NewsHunt-bot](https://github.com/erzer12/NewsHunt-bot) | Automated bot for collecting and sharing the latest news articles | Python |
-| [Portfolio](https://github.com/erzer12/Portfolio) | Personal developer portfolio site | TypeScript, CSS |
-| [HireMind](https://github.com/erzer12/HireMind) | Job search & HR assistant platform | JavaScript, CSS, HTML |
-| [festive-js](https://github.com/inovus-labs/festive-js) | Festive overlays for websites (contributor) | JavaScript, HTML, Shell |
-| [Nasa-hacthon](https://github.com/erzer12/Nasa-hacthon) | NASA Hackathon project | Python, JavaScript, TypeScript |
-| [mulearnhome](https://github.com/gtech-mulearn/mulearnhome) | μLearn community home (contributor) | TypeScript |
-| [hr-agent](https://github.com/erzer12/hr-agent) | AI bot for resume screening, candidate ranking, and interview scheduling. | Python, TypeScript |
+**College of Engineering Kottarakkara, Kerala**
+📘 B.Tech in CSE (Artificial Intelligence & Machine Learning) — **CGPA: 7.77 / 10 (Distinction)**
+📆 *2023 – 2027*
 
 ---
 
-### Holopin Badges
-[![An image of @erzer12's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/erzer12)](https://holopin.io/@erzer12)
+### 💼 Experience
+
+**Frontend Intern**
+🏢 *MuLearn Foundation — Hybrid*
+📆 *Jan 2026 – Jun 2026 · 6 months*
+
+- 🌐 Built responsive frontend features for the MuLearn dashboard using **Next.js and React**, serving **60,000+ users** across the developer community.
+- 🧩 Developed reusable UI components with **Tailwind CSS and Zustand**, establishing a scalable state management architecture across the application.
+- ⚡ Integrated RESTful APIs via **TanStack Query**, reducing load times by **30%** and improving data caching efficiency.
+- **Tech Stack:** ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
 
 ---
 
-## 📊 GitHub Landscape (Unified Theme)
+### 🌍 Open Source
 
-<div align="center">
-  <table width="100%">
-    <tr align="center">
-      <td width="50%">
-        <img align="center" src="https://github-readme-stats.vercel.app/api?username=erzer12&theme=transparent&show_icons=true&count_private=true&include_all_commits=false&title_color=45385e&icon_color=45385e&text_color=ffffff&bg_color=00000000" alt="GitHub Stats">
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=erzer12&theme=dark&hide_border=true" alt="GitHub Streak">
-      </td>
-    </tr>
-    <tr align="center">
-      <td width="50%">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erzer12&theme=transparent&hide_border=false&no-bg=true&no-frame=true&langs_count=10&title_color=45385e&icon_color=45385e&text_color=ffffff" alt="Top Languages">
-      </td>
-      <td width="50%">
-        <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=erzer12&theme=transparent&title_color=45385e&icon_color=45385e&text_color=ffffff" alt="Github Profile Summary"/>
-      </td>
-    </tr>
-  </table>
+**Contributor — Festive.js**
+🏢 *Inovus Labs · Hacktoberfest 2025*
+📆 *Oct 2025*
 
-  <br>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=erzer12&theme=react-dark" width="100%" alt="Contribution Graph"/>
-  
-  <img src="./github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%">
-</div>
+- Developed configurable themes and optimized core SDK behavior for **Festive.js**, a lightweight JavaScript library for dynamic seasonal website overlays.
+- Merged multiple PRs collaborating with maintainers; recognized as **Top Contributor** in the MuLearn Community during Hacktoberfest 2025.
+- **Tech Stack:** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
 
 ---
+
+### 💡 Projects
+
+**🤟 SignStream – Real-Time Browser-Based Sign Language Recognition** · [GitHub](https://github.com/erzer12/Signstream) · *Mar 2026*
+
+- Built a browser-based ASL recognition system achieving **92% gesture accuracy**, improving accessibility through real-time captioning and speech output — fully on-device, no backend required.
+- Trained a **GRU-based sequence model** on WLASL (top 100 signs) using 21×3 hand landmarks per frame; achieved **97% top-3 classification accuracy** across 129 classes.
+- Designed a fully on-device inference pipeline using **MediaPipe + ONNX Runtime Web**, enabling real-time NLP-driven captioning in the browser.
+- 📄 Research paper presented at **NCMASE-26** *(Mar 2026)*: *"SignStream: A Client-Side Real-Time Browser-Based Sign Language Recognition System"* <!-- Add paper link here when published: [Paper](<LINK>) -->
+- **Tech:** `PyTorch` `GRU` `MediaPipe` `ONNX Runtime Web` `NLP` `JavaScript`
+
+**🧠 Zen – AI Mental Health Companion** · [GitHub](https://github.com/erzer12/Zen) · [Demo](https://huggingface.co/spaces/Erzer12/mental-health-companion) · *Jan 2025*
+
+- Developed an AI-powered mental health chatbot with **emotion detection**, **RAG-based knowledge retrieval** from 21 clinical psychology PDFs, and interactive wellness tools (breathing exercises, grounding prompts).
+- Built embedding-based retrieval using **FAISS + Sentence Transformers**, grounding LLM responses in evidence-based clinical material.
+- Orchestrated **Meta-Llama-3-8B-Instruct** via Hugging Face Inference API; reduced unsupported responses to ~**5%** using `j-hartmann/emotion-english-distilroberta-base`.
+- **Tech:** `PyTorch` `Hugging Face` `FAISS` `Sentence Transformers` `RAG` `Gradio` `Llama 3`
+
+**🌍 Historical Risk Explorer – NASA Space Apps 2025** · [GitHub](https://github.com/erzer12/historical-risk-explorer) · *Oct 2025*
+
+- Built an interactive **Streamlit data visualization platform** for global environmental datasets with real-time risk probability analysis.
+- Improved risk assessment exploration speed by **15%** through interactive data streams; led team to **Global Nominee** selection among thousands of worldwide NASA Space Apps submissions.
+- **Tech:** `Python` `Streamlit` `Geospatial Analysis` `Data Visualization`
+
+**🤖 HR Agent – AI-Powered Hiring Automation** · [GitHub](https://github.com/erzer12/hr-agent) · *2025*
+
+- Built a full-stack recruiting automation platform where users paste a job description, upload PDF resumes, and receive AI-ranked candidates — then schedule interviews and send confirmation emails, all from a single UI.
+- Architected a **Flask REST API** backend with a **CrewAI agent/crew** orchestration layer handling resume parsing, scoring via **Google Gemini**, and structured candidate ranking.
+- Integrated **Google Calendar API** for real-time slot discovery and event creation (with Google Meet), and **SMTP/Gmail** for automated interview confirmation emails.
+- Frontend built with **React + Vite + Tailwind CSS**, proxying `/api` calls to Flask; includes a **Dev Mode** for mocked behavior without external APIs.
+- **Tech:** `Python` `Flask` `React` `Vite` `TypeScript` `Tailwind CSS` `Google Gemini` `CrewAI` `Google Calendar API` `PyPDF2` `SMTP`
 
 <details>
-  <summary>🤖 Secret Protocol</summary>
-  <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=01001000+01000101+01001100+01001100+01001111+00100000+01010110+01001001+01010011+01001001+01010100+01001111+01010010" alt="HELLO VISITOR">
+<summary>📦 Other Projects</summary>
+<br>
+
+| Project | Description | Tech Stack |
+|:--------|:------------|:-----------|
+| [HireMind](https://github.com/erzer12/HireMind) | Job search & HR assistant platform | JavaScript, CSS, HTML |
+| [NewsHunt-bot](https://github.com/erzer12/NewsHunt-bot) | Automated bot for collecting and distributing the latest news articles | Python |
+| [Portfolio](https://github.com/erzer12/Portfolio) | Personal developer portfolio site | TypeScript, CSS |
+
 </details>
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=000000&height=100&section=footer" alt="Footer">
-</div>
+### 🏆 Achievements & Publications
+
+- 🌍 **NASA Space Apps Challenge 2025 — Global Nominee** — selected among the top global submissions across thousands of international teams.
+- 📄 **Research Paper** — *"SignStream: Real-Time Browser-Based Sign Language Recognition via On-Device Inference"*, NCMASE-26, Mar 2026. · [Certificate](https://drive.google.com/file/d/1aouvIZXh1Unmf2Qldtiggb-IghwNWZry/view?usp=sharing) <!-- Add paper link when published: · [Paper](<LINK>) -->
+- 🎃 **Hacktoberfest 2025 — Top Contributor** (MuLearn Community) — recognized for significant open-source contributions.
+- 🟩 **Campus Mantri — GeeksforGeeks** *(Jan 2026 – Present)* · [Profile](https://www.geeksforgeeks.org/profile/harshilp07) — organized a Campus Awareness Drive reaching **200+ students**, growing campus participation in competitive programming.
+
+---
+
+### 📜 Certifications
+
+- 🏅 [IBM AI Developer Professional Certificate](https://coursera.org/share/8b00a0b8d0db0465b3047cb19bacfc71) — *IBM*
+- ☁️ [AWS Generative AI and AI Agents with Amazon Bedrock](https://coursera.org/share/4e12ea798bfebd6dd460c154a9dcc8d4) — *AWS*
+
+---
+
+### 🧰 Technical Skills
+
+**Languages & Frameworks**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+
+**ML / DL / GenAI**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black)
+`RNN/GRU` `Transformers` `RAG` `FAISS` `Sentence Transformers` `Fine-tuning` `Prompt Engineering` `ONNX` `MediaPipe` `CrewAI`
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+`CI/CD` `Vercel` `Render` `Tailwind CSS` `Zustand` `TanStack Query`
+
+---
+
+### 🔗 Links
+
+- 📄 [Resume](https://drive.google.com/file/d/17p8i2QiSdw7qf4hTnRxexgJBvj8nyKke/view?usp=sharing)
+- 🤗 [Hugging Face](https://huggingface.co/Erzer12)
+- 🟩 [GeeksforGeeks Profile](https://www.geeksforgeeks.org/profile/harshilp07)
+- 🏅 [NCMASE-26 Participation Certificate](https://drive.google.com/file/d/1aouvIZXh1Unmf2Qldtiggb-IghwNWZry/view?usp=sharing)
+<!--  - 📄 [SignStream Research Paper](#) Replace # with paper link when published -->
