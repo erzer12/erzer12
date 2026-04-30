@@ -97,9 +97,9 @@ Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied 
 
 ### 🏆 Achievements & Publications
 
-- 🌍 **NASA Space Apps Challenge 2025 — Global Nominee** — selected among the top global submissions across thousands of international teams.
+- 🌍 **NASA Space Apps Challenge 2025 — Global Nominee** — selected among the top global submissions across thousands of international teams. [Project](https://github.com/erzer12/historical-risk-explorer)
 - 📄 **Research Paper** — *"SignStream: Real-Time Browser-Based Sign Language Recognition via On-Device Inference"*, NCMASE-26, Mar 2026. · [Certificate](https://drive.google.com/file/d/1aouvIZXh1Unmf2Qldtiggb-IghwNWZry/view?usp=sharing) <!-- Add paper link when published: · [Paper](<LINK>) -->
-- 🎃 **Hacktoberfest 2025 — Top Contributor** (MuLearn Community) — recognized for significant open-source contributions.
+- 🎃 **Hacktoberfest 2025 — Top Contributor** (MuLearn Community) — recognized for significant open-source contributions. [Post](https://www.linkedin.com/posts/celebrating-our-hacktoberfest-2025-top-contributors-share-7393315826713636864-BFOt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNEU20BXAC_ezkYLyOlgXBCqzLghFnJj2w)
 - 🟩 **Campus Mantri — GeeksforGeeks** *(Jan 2026 – Present)* · [Profile](https://www.geeksforgeeks.org/profile/harshilp07) — organized a Campus Awareness Drive reaching **200+ students**, growing campus participation in competitive programming.
 
 ---
