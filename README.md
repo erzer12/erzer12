@@ -88,6 +88,8 @@ Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied 
 | [HireMind](https://github.com/erzer12/HireMind) | Job search & HR assistant platform | JavaScript, CSS, HTML |
 | [NewsHunt-bot](https://github.com/erzer12/NewsHunt-bot) | Automated bot for collecting and distributing the latest news articles | Python |
 | [Portfolio](https://github.com/erzer12/Portfolio) | Personal developer portfolio site | TypeScript, CSS |
+| [AI-Based-Network-Intrusion-Detection-System](https://github.com/erzer12/AI-Based-Network-Intrusion-Detection-System) | Demonstration of use of ai and ml in security attacks | Python |
+| [Product Dashboard](https://github.com/erzer12/Product-daskboard) | Product-daskboard: a clean, data-driven dashboard to track KPIs at a glance | Javascript, TypeScript, CSS |
 
 </details>
 
