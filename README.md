@@ -50,7 +50,7 @@ Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied 
 
 ### 💡 Projects
 
-**🤟 SignStream – Real-Time Browser-Based Sign Language Recognition** · [GitHub](https://github.com/erzer12/Signstream) · *Mar 2026*
+**🤟 SignStream – Real-Time Browser-Based Sign Language Recognition** · [GitHub](https://github.com/erzer12/Signstream) · [Demo](https://signstream-psi.vercel.app) · *Mar 2026*
 
 - Built a browser-based ASL recognition app with live caption buffering and optional text-to-speech (Web Speech API) for accessibility.
 - Trained a bidirectional GRU (BiGRU) classifier on 16-frame MediaPipe hand-landmark sequences using WLASL (top-100) plus ASL alphabet data (129-class vocabulary); achieved 97.2% ± 0.25% top-1 accuracy (5-fold stratified CV).
