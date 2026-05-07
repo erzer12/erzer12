@@ -71,7 +71,7 @@ Final-year B.Tech CSE (AI & ML) undergraduate with a strong interest in applied 
 - Improved risk assessment exploration speed by **15%** through interactive data streams; led team to **Global Nominee** selection among thousands of worldwide NASA Space Apps submissions.
 - **Tech:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![Geospatial%20Analysis](https://img.shields.io/badge/Geospatial%20Analysis-0F172A) ![Data%20Visualization](https://img.shields.io/badge/Data%20Visualization-0F172A)
 
-**🤖 HR Agent – AI-Powered Hiring Automation** · [GitHub](https://github.com/erzer12/hr-agent) · *2025*
+**🤖 HR Agent – AI-Powered Hiring Automation** · [GitHub](https://github.com/erzer12/hr-agent) · *Sept 2025*
 
 - Built a full-stack recruiting automation platform where users paste a job description, upload PDF resumes, and receive AI-ranked candidates — then schedule interviews and send confirmation emails, all from a single UI.
 - Architected a **Flask REST API** backend with a **CrewAI agent/crew** orchestration layer handling resume parsing, scoring via **Google Gemini**, and structured candidate ranking.
